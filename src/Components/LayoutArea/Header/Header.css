@@ -1,0 +1,138 @@
+.Header {
+  border-bottom: 1px thin black;
+  box-sizing: border-box;
+}
+.Header > .logo {
+  position: absolute;
+  left: 75px;
+  top: 15px;
+  width: 250px;
+  height: 250px;
+}
+
+.homeLink {
+  position: absolute;
+  top: 125px;
+  left: 860px;
+  color: #544545;
+  text-decoration: none;
+  color: #663300;
+}
+
+.lifeLink {
+  position: absolute;
+  top: 125px;
+  left: 650px;
+  height: 200px;
+  width: 150px;
+  color: #663300;
+}
+.lifeNav {
+  color: #544545;
+  text-decoration: none;
+  color: #663300;
+}
+.lifeLink:hover .dropdown {
+  display: block;
+}
+
+.Header > .aboutLink {
+  position: absolute;
+  top: 125px;
+  left: 575px;
+  color: #544545;
+  text-decoration: none;
+  color: #663300;
+}
+
+.dropdown {
+  display: none;
+}
+
+.dropdown:hover .dropdown {
+  display: block;
+}
+
+.fashionLink {
+  position: absolute;
+  top: 40px;
+  color: #544545;
+  text-decoration: none;
+  display: block;
+  color: #663300;
+}
+
+.beautyLink {
+  position: absolute;
+  top: 80px;
+  color: #544545;
+  text-decoration: none;
+  display: block;
+  color: #663300;
+}
+
+.foodLink {
+  position: absolute;
+  top: 120px;
+  color: #544545;
+  text-decoration: none;
+  display: block;
+  color: #663300;
+}
+
+.inspireLink {
+  position: absolute;
+  top: 160px;
+  color: #544545;
+  text-decoration: none;
+  display: block;
+  color: #663300;
+}
+
+.fashionLink:hover {
+  background-color: #e8dada;
+  width: 100px;
+}
+
+.beautyLink:hover {
+  background-color: #e8dada;
+  width: 100px;
+}
+
+.foodLink:hover {
+  background-color: #e8dada;
+  width: 100px;
+}
+
+.inspireLink:hover {
+  background-color: #e8dada;
+  width: 100px;
+}
+
+.slogan {
+  position: absolute;
+  top: 1000px;
+  left: 100px;
+  height: 150px;
+  font-size: 60px;
+  font-family: 'Verdana';
+  background-color: white;
+  text-align: center;
+  width: 90%;
+  color: #efe9f0;
+}
+.sloganGap {
+  height: 50px;
+  background-color: white;
+}
+.sloganContainer {
+  height: 400px;
+  background-color: #f3f5f1;
+}
+
+.mainImage {
+  position: absolute;
+  top: 400px;
+  width: 100%;
+  height: 400px;
+}

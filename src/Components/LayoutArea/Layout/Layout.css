@@ -1,0 +1,30 @@
+.Layout {
+  height: 100%;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-rows: 1300px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+header {
+  grid-column: span 3;
+}
+aside {
+  grid-column: span 1;
+}
+main {
+  grid-column: span 2;
+  overflow: auto;
+}
+
+footer {
+  grid-column: span 3;
+}
+
+.Box {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 10px;
+  box-shadow: 5px 5px 10px;
+  box-sizing: border-box;
+}

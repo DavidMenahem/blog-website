@@ -1,0 +1,13 @@
+.postTitle {
+  color: #663300;
+  font-family: "sans-serif";
+  text-align: center;
+}
+.PostCard{
+  position: relative;
+  display: inline-block;
+  width: 25%;
+  border: 1px solid #f3f5f1 ;
+  margin: 5px;
+  padding: 5px;
+}
